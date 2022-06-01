@@ -1,5 +1,9 @@
 # flap
 
-official speedrun time: idk around <2 hours mark
+tui version of flappy bird
 
-compile with `g++ main.cpp -lncurses -o main`
+compile with `make flap`
+
+run with `./flap`
+
+only tested using g++ 11.1.0 on Ubuntu
