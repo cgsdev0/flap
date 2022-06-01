@@ -20,7 +20,7 @@ A||y>=                    h+A/**/)                     mvwaddch(    W,y,x+g-a   
 r(WINDOW* W,I wx,         I wy){for                  (auto Z:z)      Z.d(W,wx,wy      );wmove(W           ,(I)b,10);
 if(winch(W)=='#')         return 1;                  waddch(W,c      >0?'p':'b')      ;wrefresh(W);return 0;}I main
 (){a=10,b=10,c=0;         int pwx;                  I ch;struct      winsize w;;      ioctl(STDOUT_FILENO,TIOCGWINSZ
-,&w/**/                   );srand(                  time(NULL));for(I i=1;i<=ceil     (w.ws_col/C)+2;++i&&(pwx=i*C))
+,&w/**/                   );srand(                  time(NULL));for(I i=1;i<=ceil     (w.ws_col/C)+2;+(pwx=i++*C))
 z./*F*/                   push_back                 ({i*(I)C,w.ws_row});initscr();    noecho();WINDOW* W=newwin(w.
 ws_row,                   w.ws_col,0               ,0);nodelay(       stdscr,true);   curs_set(0
 );while                   (true){if((ch=getch())!=  ERR&&ch==          0x20)c=-1.2;   if((I)b>=w.
