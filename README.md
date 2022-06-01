@@ -16,3 +16,5 @@ only tested using g++ 11.1.0 on Ubuntu; depends on curses
 i initially wrote the program in `unobfuscated/flap.cpp`, and then tried
 golfing it. the end result is what you see in `flap.cpp`, which is
 a standalone program that does not depend on the unobfuscated version.
+
+written in a voice call with [@ecshreve](https://github.com/ecshreve/), who wrote [their own flappy bird](https://github.com/ecshreve/gappy) at the same time
