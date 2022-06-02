@@ -7,7 +7,7 @@ tui version of flappy bird
 
 compile with `make flap`
 
-run with `./flap`
+run with `./flap`; press _**space**_ to flap
 
 only tested using g++ 11.1.0 on Ubuntu; depends on curses
 
